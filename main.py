@@ -1,6 +1,7 @@
 from functions import get_todos,write_todos
 import time
 now = time.strftime("%d-%B-%Y  %H:%M:%S")
+print("For knowing the time, look down")
 print("Currently its ",now)
 while True:
     user_prompt = input("type add,show,edit,complete or exit :- \n").strip()
